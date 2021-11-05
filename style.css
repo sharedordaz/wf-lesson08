@@ -1,7 +1,24 @@
+/*'Ubuntu font*/ 
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
 :root{
     --s-white: #e7f0ed;
     --data-row:  #e7ffed;
     --s-blue: #628ca6;
     --s-aqua: #7fb9c2;
 
+    background-color: black;
+}
+
+main{
+    background-color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+    /*opacity: 0.5;*/
+}
+p, a, input, button, td, th, h1{
+    font-family: 'Ubuntu', sans-serif;
+}
+th, h1{
+    font-weight: bolder;
 }
