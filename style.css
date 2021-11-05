@@ -61,3 +61,12 @@ thead:first-child{
         margin: 0px;
     }
 }
+@media only screen and (max-width: 400px){
+
+
+    main{
+        margin-right: 0;
+        margin-left:0;
+        
+    } 
+}
