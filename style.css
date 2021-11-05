@@ -22,3 +22,21 @@ p, a, input, button, td, th, h1{
 th, h1{
     font-weight: bolder;
 }
+
+/* TABLE*/
+table{
+    text-align: center;
+}
+
+th{
+    background-color: var(--s-blue);
+}
+
+td{
+    background-color: var(--s-aqua);
+}
+
+tfoot td{
+    font-weight: bolder;
+    background-color: var(--s-blue);
+}
