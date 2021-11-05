@@ -7,13 +7,15 @@
     --s-blue: #628ca6;
     --s-aqua: #7fb9c2;
 
-    background-color: black;
+    background-image: url('images/wp4425600.jpg');
 }
 
 main{
     background-color: white;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top:1%;
+    padding:1.5%;
     /*opacity: 0.5;*/
 }
 p, a, input, button, td, th, h1{
@@ -26,6 +28,11 @@ th, h1{
 /* TABLE*/
 table{
     text-align: center;
+    margin-left: 23%;
+    margin-right: 23%;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
 }
 
 th{
@@ -36,7 +43,21 @@ td{
     background-color: var(--s-aqua);
 }
 
-tfoot td{
+thead:first-child{
+    font-weight: bolder;
+    font-size: 1.2em;
+}
+
+#foot{
     font-weight: bolder;
     background-color: var(--s-blue);
+}
+
+@media only screen and (max-width: 750px) {
+    main{
+        margin-right:15%;
+    }
+    table{
+        margin: 0px;
+    }
 }
